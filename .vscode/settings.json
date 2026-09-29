@@ -2,5 +2,6 @@
   "editor.inlayHints.enabled": "off",
   "code-runner.showExecutionMessage": false,
   "code-runner.runInTerminal": true,
-  "editor.wordWrap": "on"
+  "editor.wordWrap": "on",
+  "java.jdt.ls.vmargs": "-XX:+UseParallelGC -XX:GCTimeRatio=4 -XX:AdaptiveSizePolicyWeight=90 -Dsun.zip.disableMemoryMapping=true -Xmx4G -Xms100m -Xlog:disable"
 }
